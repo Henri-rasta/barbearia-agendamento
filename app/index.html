@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Barbearia - Agendamento</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 50px;
+    }
+    .card {
+      background: #222;
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 400px;
+      margin: auto;
+    }
+    input, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: none;
+    }
+    button {
+      background: #00c853;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>💈 Barbearia Agendamento</h1>
+
+  <div class="card">
+    <input placeholder="Seu nome">
+    <input placeholder="WhatsApp">
+    <input type="date">
+    
+    <select>
+      <option>09:00</option>
+      <option>10:00</option>
+      <option>11:00</option>
+    </select>
+
+    <button onclick="alert('Agendamento enviado! (simulação WhatsApp)')">
+      Agendar
+    </button>
+  </div>
+
+</body>
+</html>
